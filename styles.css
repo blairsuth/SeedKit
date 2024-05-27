@@ -1,0 +1,408 @@
+/* Reset some basic elements for consistency */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Container */
+.container {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+/* Header styles */
+header {
+  background: #333;
+  color: #fff;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+header .logo {
+  position: absolute;
+  left: 20px; /* Adjust the left value as needed */
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Hero section styles */
+.hero {
+  position: relative;
+  background: url("images/hero-bg.jpg") no-repeat center center/cover;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* Adjust color and transparency here */
+  z-index: 1;
+}
+
+.hero .container {
+  position: relative;
+  z-index: 2;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.hero .cta {
+  background: #ff9800;
+  color: #fff;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+}
+
+/* Features section styles */
+.features {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.features h2 {
+  margin-bottom: 40px;
+  font-size: 2rem;
+}
+
+.feature-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.feature {
+  max-width: 250px;
+  text-align: center;
+  margin: 20px;
+}
+
+.feature img {
+  height: 250px;
+  margin-bottom: 20px;
+}
+
+/* How it works section styles */
+.how-it-works {
+  background: #f7fff7;
+  padding: 60px 0;
+  text-align: center;
+  border-top: 1px solid #d3d3d3;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.how-it-works h2 {
+  margin-bottom: 40px;
+  font-size: 2rem;
+}
+
+.steps {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.step {
+  max-width: 200px;
+  margin: 20px;
+}
+
+.step img {
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+/* Testimonials section styles */
+.testimonials {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.testimonials h2 {
+  margin-bottom: 40px;
+  font-size: 2rem;
+}
+
+.testimonial-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.testimonial {
+  max-width: 300px;
+  font-style: italic;
+  margin: 20px;
+}
+
+/* Product info section styles */
+.product-info {
+  padding: 60px 0;
+  background-color: #f7fff7;
+  border-top: 1px solid #d3d3d3;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.product-info .product-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-image {
+  flex: 1 1 300px;
+  margin: 20px;
+}
+
+.product-image img {
+  width: 100%;
+  max-width: 600px;
+}
+
+.product-description {
+  flex: 1 1 300px;
+  margin: 20px;
+}
+
+.product-description ul {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.product-description ul li {
+  margin-bottom: 10px;
+}
+
+.special-offer {
+  background: #ff9800;
+  color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.special-offer h3 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.special-offer p {
+  margin-bottom: 20px;
+}
+
+.special-offer .cta {
+  background: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+/* FAQ section styles */
+.faq {
+  background: #fff;
+  padding: 60px 0;
+}
+
+.faq h2 {
+  margin-bottom: 40px;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.faq-list {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.faq-item {
+  margin-bottom: 20px;
+}
+
+.faq-item h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer {
+  background: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer .footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.footer-content div {
+  max-width: 300px;
+  margin: 10px;
+}
+
+.social-media a {
+  margin: 0 10px;
+}
+
+.social-media img {
+  height: 30px;
+}
+
+.newsletter input[type="email"] {
+  padding: 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.newsletter button {
+  padding: 10px 20px;
+  background: #ff9800;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.footer-bottom p {
+  font-size: 0.9rem;
+}
+
+.footer-bottom a {
+  color: #ff9800;
+  text-decoration: none;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  header .logo {
+    position: static;
+    margin-bottom: 10px;
+  }
+
+  header nav ul {
+    flex-direction: column;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .hero .cta {
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+
+  .feature-list,
+  .steps,
+  .testimonial-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product-info .product-details {
+    flex-direction: column;
+  }
+
+  .product-info .product-image,
+  .product-info .product-description {
+    margin: 20px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero p {
+    font-size: 0.9rem;
+  }
+
+  .hero .cta {
+    padding: 8px 15px;
+    font-size: 0.9rem;
+  }
+
+  .special-offer h3 {
+    font-size: 1.2rem;
+  }
+
+  .special-offer .cta {
+    padding: 8px 15px;
+    font-size: 0.9rem;
+  }
+
+  footer .footer-content {
+    flex-direction: column;
+    align-items: center;
+  }
+}

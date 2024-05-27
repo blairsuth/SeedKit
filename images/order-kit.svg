@@ -1,0 +1,70 @@
+<svg
+  version="1.1"
+  id="Layer_1"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="0 0 64 64"
+  xml:space="preserve"
+  width="64px"
+  height="64px"
+>
+  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+  <g
+    id="SVGRepo_tracerCarrier"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  ></g>
+  <g id="SVGRepo_iconCarrier">
+    <g>
+      <rect
+        x="10"
+        y="34"
+        width="44"
+        height="20"
+        style="fill:#8B5E3C;stroke:#000000;stroke-width:2;"
+      ></rect>
+      <rect
+        x="12"
+        y="36"
+        width="40"
+        height="4"
+        style="fill:#A67C52;"
+      ></rect>
+      <rect
+        x="12"
+        y="44"
+        width="40"
+        height="4"
+        style="fill:#A67C52;"
+      ></rect>
+      <path
+        d="M16,34 L16,24 Q18,22 20,24 Q22,22 24,24 Q26,22 28,24 Q30,22 32,24 Q34,22 36,24 Q38,22 40,24 Q42,22 44,24 Q46,22 48,24 L48,34"
+        style="fill:#228B22;stroke:#000000;stroke-width:2;"
+      ></path>
+      <path
+        d="M20,30 Q22,28 24,30"
+        style="fill:none;stroke:#006400;stroke-width:2;"
+      ></path>
+      <path
+        d="M24,28 Q26,26 28,28"
+        style="fill:none;stroke:#006400;stroke-width:2;"
+      ></path>
+      <path
+        d="M28,26 Q30,24 32,26"
+        style="fill:none;stroke:#006400;stroke-width:2;"
+      ></path>
+      <path
+        d="M32,24 Q34,22 36,24"
+        style="fill:none;stroke:#006400;stroke-width:2;"
+      ></path>
+      <path
+        d="M36,26 Q38,24 40,26"
+        style="fill:none;stroke:#006400;stroke-width:2;"
+      ></path>
+      <path
+        d="M40,28 Q42,26 44,28"
+        style="fill:none;stroke:#006400;stroke-width:2;"
+      ></path>
+    </g>
+  </g>
+</svg>
