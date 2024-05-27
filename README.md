@@ -1,6 +1,2 @@
-# medicinalkit
-# medicinalkit
-# medicinalkit
 # seedkit
-# seedkit
-# seedkit
+hosted on bluehost
