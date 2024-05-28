@@ -21,5 +21,8 @@ jobs:
       - name: Install rsync
         run: sudo apt-get install -y rsync
 
+      - name: Make deploy script executable
+        run: chmod +x deploy.sh
+
       - name: Deploy
         run: ./deploy.sh
